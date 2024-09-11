@@ -27,6 +27,6 @@ jobs:
     - name: Publish
       run: dotnet pack --configuration Release
     - name: nuget login
-      run: dotnet nuget add source --username lucasfm95 --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/lucasfm95/index.json"
+      run: dotnet nuget add source --username lucasfm95 --password ${{ secrets.PACKAGE }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/lucasfm95/index.json"
     - name: nuget push
-      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source github --skip-duplicate
+      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.PACKAGE }} --source github --skip-duplicate
