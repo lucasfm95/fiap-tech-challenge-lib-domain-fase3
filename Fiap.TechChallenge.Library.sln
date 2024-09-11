@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1878092-646F-4EF0-97E6-D9EB6E85E6F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{88D25F7F-B390-4BE1-BDE4-BE54A142CC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Domain", "src\Fiap.TechChallenge.Domain\Fiap.TechChallenge.Domain.csproj", "{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D59D13E-EE59-4DAE-94F2-9A838002C8F7} = {B1878092-646F-4EF0-97E6-D9EB6E85E6F3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
