@@ -1,4 +1,4 @@
-﻿namespace Fiap.TechChallenge.Domain.Entities;
+﻿namespace Fiap.TechChallenge.LibDomain.Entities;
 
 public class ContactEntity(string name, string email, string phoneNumber, short dddNumber)
 {

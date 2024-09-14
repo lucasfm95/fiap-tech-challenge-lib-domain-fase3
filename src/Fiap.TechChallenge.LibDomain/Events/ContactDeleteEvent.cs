@@ -1,4 +1,4 @@
-namespace Fiap.TechChallenge.Domain.Events;
+namespace Fiap.TechChallenge.LibDomain.Events;
 
 public class ContactDeleteEvent
 {

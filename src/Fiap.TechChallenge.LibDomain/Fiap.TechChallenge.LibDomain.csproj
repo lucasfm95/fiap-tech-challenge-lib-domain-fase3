@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>Fiap.TechChallenge.Domain</PackageId>
+        <PackageId>Fiap.TechChallenge.LibDomain</PackageId>
         <Version>1.0.1</Version>
         <Authors>Lucas Martins</Authors>
         <RepositoryUrl>https://github.com/lucasfm95/fiap-tech-challenge-lib-domain-fase3</RepositoryUrl>

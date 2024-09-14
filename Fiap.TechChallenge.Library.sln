@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1878092-646
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{88D25F7F-B390-4BE1-BDE4-BE54A142CC52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.Domain", "src\Fiap.TechChallenge.Domain\Fiap.TechChallenge.Domain.csproj", "{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.TechChallenge.LibDomain", "src\Fiap.TechChallenge.LibDomain\Fiap.TechChallenge.LibDomain.csproj", "{7D59D13E-EE59-4DAE-94F2-9A838002C8F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
