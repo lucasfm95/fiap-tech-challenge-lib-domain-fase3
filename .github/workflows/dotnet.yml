@@ -26,10 +26,6 @@ jobs:
       run: dotnet test --no-build --no-restore --verbosity normal
     - name: Publish
       run: dotnet pack --configuration Release
-    - name: nuget login github
-      run: dotnet nuget add source --username lucasfm95 --password ${{ secrets.PACKAGE }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/lucasfm95/index.json"
-    - name: nuget push github
-      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.PACKAGE }} --source github --skip-duplicate
     - name: nuget login nuget
       run: dotnet nuget add source --username lucasfm95 --password ${{ secrets.NUGET_PACKAGE }} --store-password-in-clear-text --name nuget "https://api.nuget.org/v3/index.json"
     - name: nuget push nuget
