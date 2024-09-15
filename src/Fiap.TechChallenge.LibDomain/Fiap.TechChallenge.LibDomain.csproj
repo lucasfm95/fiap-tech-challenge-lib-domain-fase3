@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Fiap.TechChallenge.LibDomain</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.4</Version>
         <Authors>Lucas Martins</Authors>
         <RepositoryUrl>https://github.com/lucasfm95/fiap-tech-challenge-lib-domain-fase3</RepositoryUrl>
     </PropertyGroup>
